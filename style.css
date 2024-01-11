@@ -1,0 +1,132 @@
+/* external css */
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+ border-top: 10px solid burlywood;
+}
+h1,h2,h3,h4,p,li{
+    font-family:sans-serif ;
+}
+h1,h2,h3{
+    color: rgb(115, 200, 172);
+}
+h1{
+
+   
+    font-size: 26px;
+    margin-top: 20px;
+   
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+   
+    
+}
+h3{
+    font-size: 30px;
+   
+}
+h4{
+    font-size: 20px;
+  
+    text-transform: uppercase;
+    text-align:center;
+}
+p{
+    font-size: 22px;
+    
+    line-height:1.5;
+    margin-bottom: 50px 0;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+/* footer p{
+    font-size: 16px;
+    color: burlywood;
+} */
+
+ /* article header p{
+     font-style: italic ;
+} */
+
+#author{
+    font-style: italic;
+    font-size: 18px;
+}
+
+#Copyright{
+    font-size: 16px;
+    color: burlywood;
+}
+.related-author{
+   font-size: 20px;
+   color: black;
+}
+.main-headerS{
+    border: 5px solid skyblue;
+    /* padding: 20px; */
+    /* padding-right:50px;
+    padding-left:40px; */
+    height: 80px;
+
+}
+
+aside {
+    
+    border: 5px solid skyblue;
+    padding:50px 0;
+    width: 500px;
+}
+/* li:first-child
+{
+    font-weight: bold;
+    font-style: italic;
+} */
+/* li:nth-child(3)
+{
+    color: blue;
+} */
+/* missconception this wont work */
+/* article p:first-child{
+    color:red;
+
+} */
+
+a:link{
+    color:rgb(126, 207, 159);
+    text-decoration:none;
+}
+a:visited{
+    color:rgb(126, 207, 159);
+}
+a:hover{
+    color: rgb(117, 178, 157);
+    font-weight: bold;
+    text-decoration: underline solid rgb(77, 166, 174);
+}
+
+a:active{
+    background-color: burlywood;
+    font-style: italic;
+}
+
+/* nav a:link */
+nav{
+
+}
+.post-img{
+    width:100%;
+    height:auto;
+}
+.container{
+    width: 700;
+    margin-left:auto;
+    margin-right: auto;
+}
